@@ -27,3 +27,41 @@ le relazioni sono:
 
  uno studente puo' fare molti esami un esame puo' avere molti studenti 
  quindi STUDENTI------>ESAMI MANY TO MANY
+
+
+# Dipartimenti
+
+id
+nome
+
+# corsi_laurea
+
+id 
+nome 
+dipartimento_id
+
+# corsi
+
+id 
+nome 
+corso_laurea_id
+
+# insegnanti
+
+id
+nome
+coignome
+
+# esami
+
+id
+data
+corso_id
+
+# studenti
+
+id
+nome
+cognome
+matricola
+corso_laurea_id
